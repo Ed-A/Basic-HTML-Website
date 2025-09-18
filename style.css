@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');        
+
+section{
+    text-align: center;
+}
+
+header, section{
+    margin: 0 14px;
+}
+
+header, header div, .testimony{
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    justify-content: space-between;
+}
+
+.testimony{
+    justify-content: space-evenly;
+}
+
+header h2{
+    padding-left: 10px;
+    color: gray;
+}
+
+nav{
+    padding: 22px 0;
+    font-size: 18px;
+    color: gray;
+}
+
+h1, h2, h3, h4, .intro p{
+    font-family: 'Comic Relief';
+}
+
+.testimonial-card{
+    border: 1px solid black;
+    width: 210px;
+    border-radius: 20px;
+    padding: 1%;
+    font-family: 'Comic Relief';
+    font-size: medium;
+}
+
+.testimonial-card .author{
+    color: gray;
+}
+
+nav ul, li a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0 8px;
+    font-weight: 200;
+    font-family: 'Comic Relief';
+}
+
+li a{
+    color: black;
+}
+
+.intro{
+    padding: 50px;
+}
+
+.intro p{
+    color: gray;
+}
+
+footer{
+    text-align: center;
+    padding: 100px 0 0 0;
+    font-family: 'Comic Relief';
+    color: gray;
+}
+
+body{
+    font-size: large;
+}
+
+.mid{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+aside{
+    border: 2px solid black;
+    padding: 18px;
+}
+
+article{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 18px;
+    margin: 10px 0;
+}
+
+.project ul{
+    list-style-type: none;
+    padding-left: 0%;
+}
+
+.project ul li{
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+.project ul li:last-child{
+    border-bottom: 0;
+}
+
+.exp div:first-of-type{
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.review h2{
+    text-align: left;
+    margin-top: 30px;
+}
